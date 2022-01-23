@@ -1,0 +1,6 @@
+a = list(map(int, input().split()))
+b = max(a)
+a.remove(b)
+print(b - a[0])
+print(b - a[1])
+print(b - a[2])
