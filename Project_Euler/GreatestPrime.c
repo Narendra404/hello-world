@@ -2,11 +2,20 @@
 
 int main (void)
 {
-    long long n,i=1;
+    long long int n, i, fact;
     scanf("%lli",&n);
-    while (n>1)
+
+    for (i = 1; i <= n; i++)
     {
-        for(int j=1;j<)
+        if (n % i == 0)
+        {
+            if ((i + 1) % 6 == 0 || (i - 1) % 6 == 0)
+            {
+                fact = i;
+            }
+        }
     }
+
+    printf("%lli\n", fact);
 }
 
